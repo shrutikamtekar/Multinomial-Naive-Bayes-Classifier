@@ -1,7 +1,9 @@
 # Multinomial-Naive-Bayes-Classifier
-Python implementation of multinomail naive bayes classifier for positive and neagtive review file
+<p>Python implementation of multinomial naive bayes classifier for :<br>
+1. Binary Text Classification of positive and negative book review files.<br>
+2. Multiclass Text Classification for <b>20 Newsgroups dataset</b>  <a>http://qwone.com/~jason/20Newsgroups/</a>.</p>  
 
-####Description
+## Binary Text Classification
 There are two data files in the package: positive.review and negative.review. They correspond to
 positive and negative book reviews. The text has been preprocessed so that each line contains a review
 document; each token (e.g., year:2) represents a word and its frequency in the document. The last token
